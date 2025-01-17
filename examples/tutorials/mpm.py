@@ -50,6 +50,7 @@ obj_sand = scene.add_entity(
     surface=gs.surfaces.Default(
         color=(0.3, 0.3, 1.0),
         vis_mode="particle",
+        # vis_mode="recon",
     ),
 )
 

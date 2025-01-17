@@ -7,7 +7,7 @@ import genesis as gs
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("-v", "--vis", action="store_true", default=False)
+    parser.add_argument("-v", "--vis", action="store_true", default=True)
     args = parser.parse_args()
 
     ########################## init ##########################
@@ -41,10 +41,12 @@ def main():
             pos=(0.65, 0.0, 0.036),
             euler=(0, 90, 0),
         ),
-        # visualize_contact=True,
+        visualize_contact=True,
     )
     franka = scene.add_entity(
         gs.morphs.MJCF(file="xml/franka_emika_panda/panda.xml"),
+        visualize_contact=True,
+
     )
 
     ########################## build ##########################

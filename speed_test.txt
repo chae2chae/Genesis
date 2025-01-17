@@ -1,0 +1,8 @@
+True island 	| 1 cubes 	| <CG: 0> 	| 7,899,958.52 fps 	| 8192 envs
+False island 	| 1 cubes 	| <CG: 0> 	| 13,025,064.26 fps 	| 8192 envs
+True island 	| 10 cubes 	| <CG: 0> 	| 755,957.50 fps 	| 8192 envs
+False island 	| 10 cubes 	| <CG: 0> 	| 355,759.00 fps 	| 8192 envs
+True island 	| 1 cubes 	| <Newton: 1> 	| 5,232,590.03 fps 	| 8192 envs
+False island 	| 1 cubes 	| <Newton: 1> 	| 10,714,038.17 fps 	| 8192 envs
+True island 	| 10 cubes 	| <Newton: 1> 	| 506,774.71 fps 	| 8192 envs
+False island 	| 10 cubes 	| <Newton: 1> 	| 184,834.08 fps 	| 8192 envs
